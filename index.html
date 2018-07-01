@@ -5,39 +5,47 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <title> Ping Pong</title>
 </head>
 
 <body>
-  <div class="jumbotron">
-      <h1> Ping Pong !</h1>
+  <div class="container-fluid">
+    <div class="row">
+
+      <h1>Ping-Pong!</h1>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4">
-       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+  </div>
+  <!--description of pingpong-->
+  <div class="container">
+    <div class="row">
+      <div class=" col-xs-12 col-md-6">
 
-        </div>
-        <!-- form column-->
-        <div class="col-xs-12 col-md-8">
-          <div class="form">
-            <form class="" action="index.html" method="post">
-              Enter your number:<input type="text">
-               <input type="submit" name="Enter" value="Enter">
-            </form>
-
-
-          </div>
-
-        </div>
-
+         <p> Welcome! Ping Pong will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+          <li>Numbers divisible by 3 become 'ping'</li>
+          <li>Numbers divisible by 5 become 'pong'</li>
+          <li>Numbers divisible by 3 and 5 come 'pingpong'</li>
+        </ol>
+        <h1> Have Fun!</h1>
       </div>
-
-    </div>
-
+      <div class=" col-xs-12 col-md-6">
+<!--Form-->
+        <div class="form-group">
+          <form id="userInput" action="index.html" method="get">
+            <label for="userNumber">Enter your number here:</label>
+            <input id="countTo" type="number" name="number" value="">
+            <button type="submit" name="button">Enter!</button>
+          </form>
+        </div>
+        <div class="output">
+          <ul id="output">
+          </ul>
+        </div>
+      </div>
       <script src="js/scripts.js"></script>
-
+    </div>
+  </div>
 </body>
 
 </html>
