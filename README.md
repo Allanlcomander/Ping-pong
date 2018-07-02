@@ -1,8 +1,8 @@
-#  PING-Pong
+#  PING-PONG
 
 ## Nandala Allan
 
-##Description
+## Description
 
  Ping-Pong is a simple game count up to your number from 1 with the following exceptions:
 
