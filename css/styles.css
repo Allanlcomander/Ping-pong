@@ -1,16 +1,29 @@
 .container-fluid{
   height: 200px;
-  background-color: #f4ce42;
   text-align: center;
   border-width: thick;
   padding: 20px;
   text-decoration-line: underline;
-}
-.container{
-  padding: 40px;
-  background-color: #abad54;
+  color:white;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 25px;
+
+  }
+
+
+
+
+body{
+
+background-image: url("../img/pingo.jpg");
+font-size: 18px;
+color: red;
+background-blend-mode: darken;
 
 }
-body{
-  background-color:  #f4ce42;
+button{
+  color:red;
+}
+input{
+  color:black;
 }
