@@ -15,7 +15,7 @@
 2. Open and run the index file.
 
 #### link to gh-pages
-https://allanlcomander.github.i0/Ping-pong/
+https://allanlcomander.github.io/Ping-pong/
 
 
 #### copyright
