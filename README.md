@@ -14,5 +14,9 @@
 1. Copy or clone the project from github pages @Allanlcomander
 2. Open and run the index file.
 
+#### link to gh-pages
+https://allanlcomander.github.i0/Ping-pong/
+
+
 #### copyright
 Allanlcomander. Allan Nandala
